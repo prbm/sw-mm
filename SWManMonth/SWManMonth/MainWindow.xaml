@@ -1,0 +1,12 @@
+﻿<Window x:Class="SWManMonth.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TextBox Height="29" HorizontalAlignment="Left" Margin="17,13,0,0" Name="tbBrowseFile" VerticalAlignment="Top" Width="287" />
+        <Button Content="Browse File" Height="29" HorizontalAlignment="Left" Margin="324,13,0,0" Name="pbBrowseFile" VerticalAlignment="Top" Width="151" Click="pbBrowseFile_Click" />
+        <Button Content="Process File" Height="32" HorizontalAlignment="Left" Margin="12,129,0,0" Name="pbProcessFile" VerticalAlignment="Top" Width="95" Click="pbProcessFile_Click" />
+        <TextBox Height="29" HorizontalAlignment="Left" Margin="17,68,0,0" Name="tbDestFile" VerticalAlignment="Top" Width="287" />
+        <Button Content="Browse File..." Height="29" HorizontalAlignment="Left" Margin="324,68,0,0" Name="pbBrowseDestFile" VerticalAlignment="Top" Width="151" Click="pbBrowseDestFile_Click" />
+    </Grid>
+</Window>
